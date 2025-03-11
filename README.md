@@ -27,4 +27,26 @@ Add screenshots of your app here to showcase the UI.
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/your-username/your-repo-name.git](https://github.com/KhushiCode14/firebase.git
+   ```
+
+2. Navigate to the project directory:
+3. Install dependencies:
+
+## Firebase Configuration
+- Create a .env file in the root directory.
+- Add your Firebase configuration:
+<pre><code>
+VITE_API_KEY=your-api-key
+VITE_AUTH_DOMAIN=your-auth-domain
+VITE_PROJECT_ID=your-project-id
+VITE_STORAGE_BUCKET=your-storage-bucket
+VITE_MESSAGING_SENDER_ID=your-messaging-sender-id
+VITE_API_ID=your-app-id
+VITE_MEASUREMENT_ID=your-measurement-id
+
+</code></pre>
+## Running the App
+```
+ npm run dev
+```
